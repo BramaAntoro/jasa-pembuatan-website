@@ -99,6 +99,7 @@
 
 .container-about {
     background-color: #ECF0FF;
+    width: 100%;
 }
 
 .img-about {
@@ -264,7 +265,7 @@
     }
 
     .text-description-about h1 {
-        font-size: 40px;
+        font-size: 38px;
     }
 
     .text-description-about p {
