@@ -1,0 +1,296 @@
+/* navbar mulai */
+
+.navbar {
+    font-family: "Tilt Neon", sans-serif;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid blue;
+    border-radius: 15%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+/* navbar selesai */
+
+/* jumbroton mulai */
+
+.container-description-home {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.text-description-home {
+    font-family: "Poppins", sans-serif;
+}
+
+.text-description-home h1 {
+    font-size: 58px;
+}
+
+.text-description-home p {
+    font-size: 30px;
+}
+
+.img-home img {
+    transform: scaleX(-1);
+}
+
+/* btn */
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* jumbroton selesai */
+
+/* about mulai */
+
+.container-about {
+    background-color: #ECF0FF;
+}
+
+.img-about {
+    width: 500px;
+    transform: scaleX(-1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.text-description-about {
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.text-description-about h1 {
+    font-size: 58px;
+}
+
+.text-description-about p {
+    font-size: 30px;
+}
+
+
+/* about selesai */
+
+/* keunggulan mulai */
+
+.container-keunggulan {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img-keunggulan {
+    width: 500px;
+    transform: scaleX(-1);
+}
+
+.text-description-keunggulan {
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.text-description-keunggulan p {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* keunggulan selesai */
+
+/* penawaran mulai */
+
+.container-description-penawaran {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-card p {
+    color: blue;
+    filter: blur(24%);
+}
+
+.card {
+    background-color: #ECF0FF;
+}
+
+.container-penawaran h1 {
+    font-family: "Tilt Neon", sans-serif;
+
+}
+
+/* penawaran selesai */
+
+/* contact mulai */
+
+.container-contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 25px;
+    background: radial-gradient(circle at top right, transparent 10%, #4f46e4 10%, #4f46e4 20%, transparent 21%), radial-gradient(circle at left bottom, transparent 10%, #4f46e4 10%, #4f46e4 20%, transparent 21%), radial-gradient(circle at top left, transparent 10%, #4f46e4 10%, #4f46e4 20%, transparent 21%), radial-gradient(circle at right bottom, transparent 10%, #4f46e4 10%, #4f46e4 20%, transparent 21%), radial-gradient(circle at center, #4f46e4 30%, transparent 31%);
+    background-size: 10em 10em;
+    background-color: #ffffff;
+    opacity: 0.95;
+}
+
+.container-form {
+    width: 50%;
+}
+
+.container-form label {
+    font-size: 20px;
+    color: black;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+/* contact selesai */
+
+/* footer mulai */
+
+
+.footer article {
+    background-color: #00031f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer__title {
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+
+.footer__social {
+    margin-bottom: 4px;
+}
+
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 4px;
+}
+
+/* footer selesai */
+
+
+/* desktop versi */
+@media (min-width: 992px) {
+    /* navbar mulai */
+
+    .navbar {
+        text-transform: uppercase;
+    }
+
+    /* navbar selesai */
+
+    /* jumbroton mulai */
+
+
+    /* jumbroton selesai */
+}
+
+/* handpone version */
+@media (max-width: 762px) {
+    /* jumbroton mulai */
+
+    .text-description-home h1 {
+        font-size: 48px;
+    }
+
+    .text-description-home p {
+        font-size: 20px;
+    }
+
+    /* jumbroton selesai */
+
+    /* about mulai */
+
+    .text-description-about {
+        text-align: center;
+    }
+
+    .text-description-about h1 {
+        font-size: 48px;
+    }
+
+    .text-description-about p {
+        font-size: 20px;
+    }
+
+    .img-about {
+        order: 1;
+    }
+
+    /* about selesai */
+
+    /* keunggulan mulai */
+
+    .text-description-keunggulan p {
+        font-size: 48px;
+    }
+
+    /* keunggulan selesai */
+
+    /* contact mulai */
+
+    .container-form {
+        width: 90%;
+    }
+
+    /* contact selesai */
+}
+
