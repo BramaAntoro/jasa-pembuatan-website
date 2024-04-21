@@ -264,7 +264,7 @@
     }
 
     .text-description-about h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .text-description-about p {
@@ -280,7 +280,7 @@
     /* keunggulan mulai */
 
     .text-description-keunggulan p {
-        font-size: 48px;
+        font-size: 25px;
     }
 
     /* keunggulan selesai */
